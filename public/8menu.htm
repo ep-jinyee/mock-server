@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>EntryPass Device Server Manager</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="1styles.css" type="text/css" rel="stylesheet">
+<script language=javascript src="9Proc.js"></script>
+</head>
+<body onLoad="initlogin();" onUnload="send_cmd('Sign out');">
+<div id="NewBanner"></div><!-- New Banner -->
+<table width="100%" height="78%" cellspacing="0" cellpadding="0" border="0">
+  <tr> 
+    <td width="150px" height="100%" valign="top" bgcolor="#666699">
+      <div id="NewMenu"></div><!-- New Menu -->
+    </td>
+    <td height="100%" valign="top" bgcolor="#eeeeee">      
+      <div id="NewStatus"></div><!-- New Status -->
+      <div id="NewContent"></div><!-- New Content -->
+    </td>
+  </tr>
+</table>
+<form id="sendform" action="HS.bin" enctype="multipart/form-data" method="post" >
+    <p><button type="button" onclick="StartSend();">Upload firmware</button></p>
+    </form>
+<div id="NewFooter"></div><!-- New Footer -->
+<div id="NewPopup"></div><!-- New Popup -->
+<div id="backgroundFilter"></div>
+</body>
+<HEAD>
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+</HEAD>
+</html>
